@@ -1,7 +1,7 @@
 package Crypt::DSA::KeyChain;
 
 use strict;
-use Math::BigInt try => 'GMP, Pari';
+use Math::BigInt 1.78 try => 'GMP, Pari';
 use Digest::SHA1 qw( sha1 );
 use Carp qw( croak );
 use IPC::Open3;
@@ -11,7 +11,7 @@ use Symbol qw( gensym );
 
 use vars qw{$VERSION};
 BEGIN {
-    $VERSION = '0.15_01';
+    $VERSION = '1.16';
 }
 
 use Crypt::DSA::Key;
