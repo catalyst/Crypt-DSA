@@ -1,5 +1,8 @@
 Revision history for Perl extension Crypt-DSA
 
+1.17.1 2017.08.29 - Andrew Ruthven
+  - Use /dev/urandom for the source of random data for signing.
+
 1.17 2011.06.16
 	- Upgrade to Module::Install 1.01
 	- Added support for OpenSSL 1.0.0 dsaparam format change.

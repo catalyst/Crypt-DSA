@@ -33,4 +33,4 @@ resources:
   ChangeLog: http://fisheye2.atlassian.com/changelog/cpan/trunk/Crypt-DSA
   license: http://dev.perl.org/licenses/
   repository: http://svn.ali.as/cpan/trunk/Crypt-DSA
-version: 1.17
+version: 1.17.1

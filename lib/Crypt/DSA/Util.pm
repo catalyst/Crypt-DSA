@@ -53,7 +53,7 @@ sub makerandom {
     my $size = $param{Size};
     my $bytes = int($size / 8) + 1;
     my $r = '';
-    if ( sysopen my $fh, '/dev/random', O_RDONLY ) {
+    if ( sysopen my $fh, '/dev/urandom', O_RDONLY ) {
         my $read = 0;
         while ($read < $bytes) {
             my $got = sysread $fh, my($chunk), $bytes - $read;
